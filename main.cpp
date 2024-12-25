@@ -9,5 +9,7 @@ int main() {
     cout << "Enter the second number: ";
     cin >> b;
     cout << "Sum: " << (a + b) << endl;
+    std::cout << "Difference: " << a - b << std::endl;
+
     return 0;
 }
